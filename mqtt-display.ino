@@ -1,5 +1,5 @@
 /*
-BC-Display
+MQTT-Display
 
 works with OLED 128x64 display, connected to I2C
 
