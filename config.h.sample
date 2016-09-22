@@ -1,0 +1,22 @@
+//MQTT Display config
+//copy as config.h and make necessary changes
+
+
+//TOPIC follows the BigClown structure, see bigclown.com
+//feel free to ude your own
+#define TOPIC "nodes/bridge/0/thermometer/i2c0-48"
+
+//MQTT server address
+//4 numbers, delimited by commas!
+#define SERVER (127,0,0,1)
+
+#define MQTT_AUTH_NAME "user"
+#define MQTT_AUTH_PASS "password"
+
+
+//In the case WiFi is not set,
+//display turns itself to WiFi AP with this name.
+//Simple use any device, connect to this AP, navigate
+//to 192.168.4.1 and set up the WiFi credentials
+
+#define WIFIMAN_AP "MQTTDISPLAY"
